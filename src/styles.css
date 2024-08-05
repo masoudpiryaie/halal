@@ -1,0 +1,25 @@
+@import './@core/assets/font/fonts.css';
+
+body {
+  font-family: IRANSansX, Poppins, Helvetica, 'sans-serif';
+}
+
+.Toastify__toast-container {
+  z-index: 200000;
+}
+
+.k-animation-container {
+  z-index: 10003;
+}
+.k-dialog-wrapper {
+  z-index: 10003;
+  /* z-index: 100000; */
+}
+
+.k-window-content:last-child {
+  max-height: 80vh;
+}
+.tether-element {
+  /* left: 500px !important; */
+  z-index: 1000000000080 !important;
+}
